@@ -24,3 +24,5 @@ install_if_missing "btop" "btop"
 
 # Setup Aliases
 ./aliases.sh
+
+echo "Setup completed."
