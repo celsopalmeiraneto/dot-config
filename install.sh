@@ -22,3 +22,5 @@ install_if_missing "nvim" "neovim"
 # Check and install btop
 install_if_missing "btop" "btop"
 
+# Setup Aliases
+./aliases.sh
