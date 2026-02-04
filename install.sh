@@ -25,4 +25,7 @@ install_if_missing "btop" "btop"
 # Setup Aliases
 ./aliases.sh
 
+# Shares Specifics
+./setup_shares.sh
+
 echo "Setup completed."
