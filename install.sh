@@ -23,7 +23,7 @@ install_if_missing "nvim" "neovim"
 install_if_missing "btop" "btop"
 
 # Setup Aliases
-./aliases.sh
+. ./aliases.sh
 
 # Shares Specifics
 ./setup_shares.sh
