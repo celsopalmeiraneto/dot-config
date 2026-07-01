@@ -37,4 +37,7 @@ curl https://install.duckdb.org | bash
 # Setup Aliases
 . ./aliases.sh
 
+# Setup Shares
+. ./setup_shares.sh
+
 echo "Setup completed."
