@@ -34,4 +34,7 @@ curl -fsSL https://herdr.dev/install.sh | bash
 # Setup Aliases
 . ./aliases.sh
 
+# Setup Shares
+. ./setup_shares.sh
+
 echo "Setup completed."
