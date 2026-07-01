@@ -31,4 +31,7 @@ curl -fsSL https://opencode.ai/install | bash
 # Setup Aliases
 . ./aliases.sh
 
+# Setup Shares
+. ./setup_shares.sh
+
 echo "Setup completed."
