@@ -4,7 +4,23 @@ mode: all
 model: openai/gpt-5.6-terra
 temperature: 0.2
 permission:
-edit: deny
+  edit: deny
+  read: allow
+  glob: allow
+  grep: allow
+  list: allow
+  task: ask
+  external_directory: ask
+  webfetch: ask
+  websearch: ask
+  lsp: allow
+  skill: allow
+  question: allow
+  bash:
+    "*": ask
+    "git diff": allow
+    "git log*": allow
+    "grep *": allow
 ---
 
 You are in code review mode.
