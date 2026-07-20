@@ -17,13 +17,16 @@ install_if_missing() {
 sudo apt-get update
 
 # Check and install neovim
-install_if_missing "nvim" "neovim"
+./install_nvim.sh
 
 # Check and install btop
 install_if_missing "btop" "btop"
 
 # Install OpenCode
 curl -fsSL https://opencode.ai/install | bash
+
+# Setup Config Files
+./setup_config.sh
 
 # Setup Aliases
 . ./aliases.sh
