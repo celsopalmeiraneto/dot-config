@@ -15,12 +15,39 @@ permission:
   websearch: ask
   lsp: allow
   skill: allow
-  question: allow
+  question: deny
   bash:
     "*": ask
-    "git diff": allow
-    "git log*": allow
+    "git branch --list *": allow
+    "git branch --list": allow
+    "git branch --show-current": allow
+    "git diff *": allow
+    "git for-each-ref *": allow
+    "git for-each-ref": allow
+    "git grep *": allow
+    "git log *": allow
+    "git ls-files *": allow
+    "git ls-files": allow
+    "git ls-tree *": allow
+    "git merge-base *": allow
+    "git rev-list *": allow
+    "git rev-parse *": allow
+    "git show *": allow
+    "git show": allow
+    "git status *": allow
+    "git status": allow
+    "git submodule status *": allow
+    "git submodule status": allow
+    "git tag --list *": allow
+    "git tag --list": allow
     "grep *": allow
+    "head *": allow
+    "ls *": allow
+    "nl *": allow
+    "wc *": allow
+    "git show *--output*": deny
+    "git log *--output*": deny
+    "git diff *--output*": deny
 ---
 
 You are in code review mode.
