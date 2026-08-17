@@ -45,6 +45,20 @@ permission:
     "ls *": allow
     "nl *": allow
     "wc *": allow
+    "git branch *": allow
+    "git remote *": allow
+    "git config *": allow
+    "git diff-tree *": allow
+    "git name-rev *": allow
+    "git describe *": allow
+    "git ls-remote *": allow
+    "git check-ignore *": allow
+    "git cat-file *": allow
+    "sort *": allow
+    "uniq *": allow
+    "rg *": allow
+    "diff *": allow
+    "find *": allow
     "git show *--output*": deny
     "git log *--output*": deny
     "git diff *--output*": deny
