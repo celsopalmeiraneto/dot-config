@@ -110,6 +110,25 @@ Use the documentation to understand:
 
 When the implementation and documentation disagree, report the discrepancy. Do not silently assume that either one is correct.
 
+## GitHub PRs and CI outputs
+
+When a link to a GitHub PR is provided, try to use `gh cli` if available to fetch:
+
+* PR Description
+* PR Comments from the IC and other reviewers
+* CI Output
+
+Avoid running again tests and typechecks when CI already does that. Check the CI outputs from remote.
+
+If other reviewers have left comments, approach them with curiosity, don't engage on answering those, but checking
+the validity of them and feel free to reinforce them in your output, also, if they have been addressed, mention it.
+
+When a GitHub PR is provided but gh cli is unavailable or not authenticated, include this in the response:
+
+```txt
+Github cli was not available or not authenticated. Not using the PR information.
+```
+
 ## Review philosophy
 
 Focus on whether the changeset:
