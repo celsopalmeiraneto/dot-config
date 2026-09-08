@@ -25,6 +25,9 @@ install_if_missing "btop" "btop"
 # Install OpenCode
 curl -fsSL https://opencode.ai/install | bash
 
+# Install Herdr
+curl -fsSL https://herdr.dev/install.sh | bash
+
 # Setup Config Files
 ./setup_config.sh
 
