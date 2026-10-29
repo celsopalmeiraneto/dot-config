@@ -23,7 +23,7 @@ sudo apt-get update
 install_if_missing "btop" "btop"
 
 # Install OpenCode
-curl -fsSL https://opencode.ai/install | bash
+curl -fsSL https://opencode.ai/v2/install | bash
 
 # Install Herdr
 curl -fsSL https://herdr.dev/install.sh | bash
