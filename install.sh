@@ -28,6 +28,9 @@ curl -fsSL https://opencode.ai/v2/install | bash
 # Install Herdr
 curl -fsSL https://herdr.dev/install.sh | bash
 
+# Install DuckDB
+curl https://install.duckdb.org | bash
+
 # Setup Config Files
 ./setup_config.sh
 
