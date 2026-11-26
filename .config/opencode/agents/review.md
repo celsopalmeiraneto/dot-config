@@ -1,7 +1,7 @@
 ---
 description: Reviews code for correctness, quality, maintainability, and alignment with the intended change
 mode: all
-model: openai/gpt-5.6-terra
+model: openai/gpt-6.1-terra
 temperature: 0.2
 permission:
   edit: deny
